@@ -4,7 +4,7 @@ module.exports = (sequelize, Sequilize) => {
       type: Sequilize.STRING,
     },
     id_perfil: {
-      type: Sequilize.INT,
+      type: Sequilize.INTEGER,
     },
     ativo: {
       type: Sequilize.BOOLEAN,

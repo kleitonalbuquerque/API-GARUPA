@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
   // res.send("<h1>Welcome to GARUPA!</h1>");
 });
 
-require("./app/routes/turorial.routes")(app);
+require("./app/routes/usuario.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
